@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch",
+    "test": "npm test TestWithPageObject",
     "e2e-setup": "selenium-standalone install"
   },
   "keywords": [],
