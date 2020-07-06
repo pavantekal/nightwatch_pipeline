@@ -65,6 +65,7 @@ module.exports = {
           'moz:firefoxOptions': {
             args: [
               '-headless',
+              'window-size=800,800'
               // '-verbose'
             ],
           }

@@ -27,7 +27,7 @@ module.exports = {
     client
       .useXpath()
       .setValue("//input[@id='account_email']", "pavansrinirao@gmail.com")
-      .pause(10000);
+      .pause(20000);
 
     client
       .useXpath()

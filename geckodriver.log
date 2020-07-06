@@ -1,6 +1,3 @@
-1594046414055	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/sx/1gxgx7g576gd3pl6bbg754pd7m5znz/T/rust_mozprofile5FU0o3"
-1594046417356	Marionette	INFO	Listening on port 63697
-1594046523589	Marionette	INFO	Stopped listening on port 63697
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
+1594047118813	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/sx/1gxgx7g576gd3pl6bbg754pd7m5znz/T/rust_mozprofileglSxrm"
+1594047124315	Marionette	INFO	Listening on port 64129
+1594047226445	Marionette	INFO	Stopped listening on port 64129
