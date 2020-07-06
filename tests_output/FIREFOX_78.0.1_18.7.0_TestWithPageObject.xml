@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
-            tests="2">
+<testsuites errors="1"
+            failures="1"
+            tests="1">
 
   <testsuite name="TestWithPageObject"
-    errors="0" failures="0" hostname="" id="" package="TestWithPageObject" skipped="0"
-    tests="2" time="187.2" timestamp="">
+    errors="1" failures="1" hostname="" id="" package="TestWithPageObject" skipped="1"
+    tests="1" time="115.7" timestamp="">
   
-    <testcase name="Install Oberlo to Appstore" classname="TestWithPageObject" time="120.6" assertions="10">
+    <testcase name="Install Oberlo to Appstore" classname="TestWithPageObject" time="115.7" assertions="9">
 
     
 
@@ -23,33 +23,35 @@
 
     
 
-    
+      <failure message="Timed out while waiting for element &lt;//button[@id=&#39;proceed_cta&#39;]&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5110ms)">    at Object.Install Oberlo to Appstore (/Users/pavan.sreenivasa/nwproject/TestWithPageObject.js:104:8)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
 
     
-
-    
-    </testcase>
-  
-    <testcase name="Verify Oberlo in Appstore" classname="TestWithPageObject" time="66.67" assertions="6">
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <error message="Timed out while waiting for element &lt;//button[@id=&#39;proceed_cta&#39;]&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5110ms)[0m" type="error"><![CDATA[
+        at Object.Install Oberlo to Appstore (/Users/pavan.sreenivasa/nwproject/TestWithPageObject.js:104:8)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
     
     </testcase>
   
 
   
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;//span[contains(text(),&#39;Hide details&#39;)]&gt;: 
+   {&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
 
     
 
+  
+    
+    <testcase
+      name="Verify Oberlo in Appstore" classname="TestWithPageObject">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

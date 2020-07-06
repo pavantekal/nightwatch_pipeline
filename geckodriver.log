@@ -1,6 +1,3 @@
-1593783157300	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/sx/1gxgx7g576gd3pl6bbg754pd7m5znz/T/rust_mozprofileOhtqgj"
-1593783165563	Marionette	INFO	Listening on port 51855
-1593783284776	Marionette	INFO	Stopped listening on port 51855
-1593783286185	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/sx/1gxgx7g576gd3pl6bbg754pd7m5znz/T/rust_mozprofilev8u3qe"
-1593783288651	Marionette	INFO	Listening on port 52103
-1593783352852	Marionette	INFO	Stopped listening on port 52103
+1594045174706	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/sx/1gxgx7g576gd3pl6bbg754pd7m5znz/T/rust_mozprofilecJgk60"
+1594045176903	Marionette	INFO	Listening on port 63173
+1594045282167	Marionette	INFO	Stopped listening on port 63173
