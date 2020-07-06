@@ -1,4 +1,4 @@
-var config = require('../nightwatch.conf');
+var config = require('nightwatch.conf');
 
 module.exports = {
   tags: ['shopify'],
