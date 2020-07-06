@@ -32,6 +32,16 @@ module.exports = {
         on_failure: true
       },
 
+      videos: {
+        enabled: true,          // Enable video recordings
+        delete_on_pass: false,   // Delete video when tests pass
+        dir: "reports/videos",  // Video directory
+        ext: ".mp4",            // Video file extension
+        resolution: "1440x900", // Display resolution
+        fps: 15,                // Frames per second
+        pixelFormat: "yuv420p"  // Output pixel format
+      },
+
       desiredCapabilities: {
         browserName: 'firefox'
       },
