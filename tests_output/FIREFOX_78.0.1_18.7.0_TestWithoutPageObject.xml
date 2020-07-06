@@ -5,9 +5,9 @@
 
   <testsuite name="TestWithoutPageObject"
     errors="0" failures="0" hostname="" id="" package="TestWithoutPageObject" skipped="0"
-    tests="1" time="105.2" timestamp="">
+    tests="1" time="106.1" timestamp="">
   
-    <testcase name="Install Oberlo to Appstore" classname="TestWithoutPageObject" time="105.2" assertions="8">
+    <testcase name="Install Oberlo to Appstore" classname="TestWithoutPageObject" time="106.1" assertions="8">
 
     
 
