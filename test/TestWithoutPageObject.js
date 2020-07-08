@@ -29,7 +29,7 @@ module.exports = {
 
     client
       .useXpath()
-      .waitForElementPresent("//input[@id='account_email']", "5000");
+      .waitForElementPresent("//input[@id='account_email']", "4000");
     client
       .useXpath()
       .setValue("//input[@id='account_email']", "pavansrinirao@gmail.com")
