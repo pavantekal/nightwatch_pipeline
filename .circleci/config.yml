@@ -17,6 +17,8 @@ jobs:
       - slack/status:
           fail_only: false
           webhook: ${SLACK_WEBHOOK}
+          message: Hey we have got you the result for your recent build!, here it goes.
+          mentions: 'U016NEX0STC'
 workflows:
     build:
       jobs:
